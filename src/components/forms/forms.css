@@ -1,0 +1,18 @@
+.add-apartment__container h2,
+.add-apartment__container h4 {
+  color: blue;
+  text-align: center;
+  padding: 5px;
+  margin-top: 2vh;
+}
+
+input[type] {
+  color: var(--color-gray-600);
+}
+
+small {
+  width: 90%;
+  margin: 4px 5%;
+  color: red;
+  padding: 5px;
+}

@@ -1,0 +1,114 @@
+form {
+  /* work on mobile device */
+  width: 40vw;
+  height: auto;
+  padding: 10px;
+  margin: 5vh 30vw;
+  border-radius: 10px;
+  background: var(--color-gray-600);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* border: 2px solid white; */
+}
+
+.form-group {
+  width: auto;
+  height: auto;
+  position: relative;
+}
+
+input[type] {
+  width: 94%;
+  height: 50px;
+  margin: 10px 3%;
+  border-radius: 10px;
+  text-align: center;
+  color: var(--color-gray-100);
+  transition: width 2s;
+}
+
+input[type]:hover {
+  width: 96%;
+  height: 50px;
+  margin: 10px 2%;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.user-icon {
+  width: 5rem;
+  height: 5rem;
+  padding: 5px;
+  margin: 0 calc(55% - 5rem);
+  border: 5px solid var(--color-gray-100);
+  border-radius: 2.5rem;
+}
+
+form h2,
+form h6 {
+  text-align: center;
+  margin: 10px;
+}
+form h2 em {
+  color: yellow;
+  font-style: normal;
+}
+
+form h6 {
+  color: yellow;
+  font-weight: 100;
+}
+
+.form-icon {
+  width: 30px;
+  height: 30px;
+  color: var(--color-gray-600);
+  position: absolute;
+  top: 18px;
+  left: 15px;
+  /* z-index: 9; */
+}
+
+.register p {
+  font-size: smaller;
+  text-align: center;
+  padding: 0 15px;
+}
+
+p{
+  color: var(--color-gray-100);
+}
+
+.register a,
+.register em {
+  color: yellow;
+  transition: var(--transition);
+}
+
+.register a:hover {
+  font-size: larger;
+}
+
+button:hover {
+  font-size: 1.5rem;
+  background: var(--color-gray-300);
+  transition: var(--transition);
+}
+
+/* for small and mobile screen form */
+
+@media (max-width: 1024px) {
+  #form {
+    width: 90vw;
+    padding: 10px;
+    margin: 10vh 5vw;
+    border-radius: 10px;
+    background-color: var(--color-gray-600);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .form-group {
+    width: auto;
+    height: auto;
+    position: relative;
+  }
+}

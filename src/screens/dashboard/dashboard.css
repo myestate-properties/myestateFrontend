@@ -1,0 +1,94 @@
+.parent__container {
+  width: 100%;
+  height: auto;
+  /* border: 2px solid red; */
+}
+
+.dashboard__container {
+  display: flex;
+}
+
+.dashboard__text-container {
+  display: flex;
+  width: calc(100vw - 15rem);
+  flex-direction: column;
+  /* border: 2px solid orange; */
+}
+
+.active-nav {
+  position: relative;
+  width: auto;
+  height: auto;
+  padding: 0.5rem;
+  background: whitesmoke;
+  border-radius: 1.5rem;
+  color: var(--color-gray-600);
+  font-weight: 900;
+  transition: var(--transition);
+}
+
+.dashboard-title {
+  text-align: center;
+  padding: 1rem;
+  color: blue;
+}
+
+.dashboard-message {
+  text-align: center;
+  padding: 1rem;
+  margin-left: 2rem;
+  color: black;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  width: 15rem;
+  height: 100vh;
+  background-color: rgb(199, 226, 235);
+}
+
+.dashboard a {
+  color: black;
+  padding: 1rem;
+}
+
+.dashboard a:hover {
+  color: white;
+  padding: 1rem;
+  background-color: blue;
+  transition: background-color 2s;
+}
+
+/* Wallet Card Styling */
+.wallet__card-container {
+  width: 30vw;
+  height: 25vh;
+  margin-top: 4vh;
+  margin-left: 50vw;
+  background: linear-gradient(
+    to left,
+    rgb(47, 163, 201),
+    white,
+    rgb(115, 115, 202)
+  );
+  border-radius: 8px;
+}
+
+.card__details-amount {
+  padding: 1rem;
+  text-align: end;
+  color: var(--color-gray-600);
+}
+
+.card__details-id {
+  margin-top: 2.5rem;
+  text-align: center;
+  color: var(--color-gray-600);
+}
+
+.card__details-name {
+  text-align: center;
+  margin-top: 2.5rem;
+  color: var(--color-gray-600);
+}
