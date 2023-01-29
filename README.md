@@ -1,2 +1,1 @@
-# myestateFrontend
-Created with CodeSandbox
+# myestateFrontend is an estate management system created wwith react and consumed its backend services built with java, springboot and mysql to create an wholesome estate management user experience. 
